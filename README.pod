@@ -11,6 +11,7 @@ Install the project dependencies:
 
 Populate initial data
 
+  $ sqlite3 db/book.db < db/bookdb.sql
   $ perl postinstall
 
 Start server on port 5001:
